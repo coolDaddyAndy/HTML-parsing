@@ -14,6 +14,7 @@
 		FDD5180529A3DA8800FAA187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD5180329A3DA8800FAA187 /* Main.storyboard */; };
 		FDD5180729A3DA8A00FAA187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD5180629A3DA8A00FAA187 /* Assets.xcassets */; };
 		FDD5180A29A3DA8A00FAA187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD5180829A3DA8A00FAA187 /* LaunchScreen.storyboard */; };
+		FDD5181229A3DCC400FAA187 /* HTML parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5181129A3DCC400FAA187 /* HTML parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FDD5180629A3DA8A00FAA187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDD5180929A3DA8A00FAA187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDD5180B29A3DA8A00FAA187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD5181129A3DCC400FAA187 /* HTML parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTML parser.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				A69C32BCC43CE4F61A0144D4 /* Pods-HTML parsing.debug.xcconfig */,
 				8B79986F936BA2E93C7CCB7C /* Pods-HTML parsing.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +85,7 @@
 				FDD517FD29A3DA8800FAA187 /* AppDelegate.swift */,
 				FDD517FF29A3DA8800FAA187 /* SceneDelegate.swift */,
 				FDD5180129A3DA8800FAA187 /* ViewController.swift */,
+				FDD5181129A3DCC400FAA187 /* HTML parser.swift */,
 				FDD5180329A3DA8800FAA187 /* Main.storyboard */,
 				FDD5180629A3DA8A00FAA187 /* Assets.xcassets */,
 				FDD5180829A3DA8A00FAA187 /* LaunchScreen.storyboard */,
@@ -209,6 +211,7 @@
 			files = (
 				FDD5180229A3DA8800FAA187 /* ViewController.swift in Sources */,
 				FDD517FE29A3DA8800FAA187 /* AppDelegate.swift in Sources */,
+				FDD5181229A3DCC400FAA187 /* HTML parser.swift in Sources */,
 				FDD5180029A3DA8800FAA187 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
